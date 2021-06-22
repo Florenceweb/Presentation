@@ -1,0 +1,78 @@
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+a {
+  color: seashell;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+/* Header Section */
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Content Section */
+.content {
+  height: 700px;
+  background-image: url("Reconversion-LHotellerieRestauration.jpg");
+  padding-top: 400px;
+  margin: auto;
+  width: 100%;
+  color: rgb(2, 2, 2);
+  text-align: center;
+}
+
+/* Section Parcours */
+#parcours {
+   background-color: rgb(13, 218, 40);
+}
+
+
+/* Reconversion Section */
+#competence {
+  background-color: rgb(235, 17, 224);
+}
+
+
+/* Footer Section */
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
